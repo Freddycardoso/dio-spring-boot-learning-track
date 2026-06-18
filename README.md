@@ -1,4 +1,4 @@
-# 🚀 Minha Evolução no Desafio: Validação de Dados
+#  Minha Evolução no Desafio: Validação de Dados
 
 Como parte da entrega deste desafio de Spring Boot e IA, implementei uma melhoria focada na consistência e segurança da aplicação.
 
