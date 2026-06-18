@@ -1,3 +1,14 @@
+# 🚀 Minha Evolução no Desafio: Validação de Dados
+
+Como parte da entrega deste desafio de Spring Boot e IA, implementei uma melhoria focada na consistência e segurança da aplicação.
+
+Para garantir a integridade dos dados processados, adicionei regras de validação na entidade principal do domínio (`Transaction.java`) utilizando as especificações do `jakarta.validation`:
+
+- **`@NotBlank`**: Adicionado à propriedade `description` para impedir o registro de transações vazias ou sem contexto.
+- **`@Positive`**: Adicionado à propriedade `amount` para garantir que o valor da transação seja obrigatoriamente maior que zero, evitando furos no processamento financeiro.
+
+Essa pequena alteração blinda a API contra dados inválidos logo na entrada. Abaixo, você confere a documentação original do projeto base:
+
 # DIO Spring Boot Learning Track
 
 This repository contains a DIO Spring Boot learning track organized as incremental modules.
